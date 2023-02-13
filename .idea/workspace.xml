@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="513b8d15-0186-4bc6-a91d-d5029abb30d3" name="Default Changelist" comment="" />
+    <list default="true" id="513b8d15-0186-4bc6-a91d-d5029abb30d3" name="Default Changelist" comment="2.0">
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/springcloud/Order80ConsulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/springcloud/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/springcloud/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/springcloud/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/cloud-providerconsul-payment8006.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/src/main/java/com/springcloud/Payment8006ConsulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/src/main/java/com/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <list id="7da73e07-434d-4322-8539-cc16b93eafcc" name="2.0" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +77,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2L8qiVTJbQWO3sjShIm3vtuiw3V" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
@@ -67,11 +94,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Environment/android" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumerconsul-order80/src/main/java/com/springcloud" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,7 +111,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2564706" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -94,11 +122,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\RootCode\自学\springcloud2023\cloud-consumerconsul-order80\src\main\java\com\springcloud" />
+      <recent name="E:\RootCode\自学\springcloud2023\cloud-consumerconsul-order80\src\main\resources" />
+      <recent name="E:\RootCode\自学\springcloud2023\cloud-providerconsul-payment8006\src\main\resources" />
       <recent name="E:\RootCode\自学\springcloud2023\cloud-eureka-serve7003\src\main\resources" />
       <recent name="E:\RootCode\自学\springcloud2023\cloud-eureka-serve7002\src\main\resources" />
-      <recent name="E:\RootCode\自学\springcloud2023\cloud-eureka-serve9001\src\main\resources" />
-      <recent name="E:\RootCode\自学\springcloud2023\cloud-api-common\src\main\java\com\flyfish\springcloud" />
-      <recent name="E:\RootCode\自学\springcloud2023\cloud-consumer-order80\src\main\java\com\flyfish\springcloud" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.flyfish.springcloud.pojo" />
@@ -112,7 +140,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Order80Application">
+  <component name="RunManager" selected="Spring Boot.Payment8006ConsulApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -120,45 +148,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-eureka-serve7001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.flyfish.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.Eureka7001Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-eureka-serve7002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.flyfish.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.Eureka7002Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka7003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-eureka-serve7003" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.flyfish.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.Eureka7003Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,6 +161,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.Order80Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Order80ConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumerconsul-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.Order80ConsulApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,20 +194,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Payment8006Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-providerconsul-payment8006" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.Payment8006Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Payment8006ConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-providerconsul-payment8006" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.Payment8006ConsulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.Order80Application" />
       <item itemvalue="Spring Boot.Payment8001Application" />
-      <item itemvalue="Spring Boot.Eureka7001Application" />
-      <item itemvalue="Spring Boot.Eureka7002Application" />
-      <item itemvalue="Spring Boot.Eureka7003Application" />
+      <item itemvalue="Spring Boot.Payment8006Application" />
+      <item itemvalue="Spring Boot.Order80ConsulApplication" />
+      <item itemvalue="Spring Boot.Payment8006ConsulApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Payment8006ConsulApplication" />
+        <item itemvalue="Spring Boot.Order80ConsulApplication" />
+        <item itemvalue="Spring Boot.Payment8006Application" />
         <item itemvalue="Spring Boot.Payment8001Application" />
         <item itemvalue="Spring Boot.Order80Application" />
-        <item itemvalue="Spring Boot.Eureka7003Application" />
-        <item itemvalue="Spring Boot.Eureka7002Application" />
-        <item itemvalue="Spring Boot.Eureka7001Application" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +241,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="513b8d15-0186-4bc6-a91d-d5029abb30d3" name="Default Changelist" comment="" />
+      <changelist id="7da73e07-434d-4322-8539-cc16b93eafcc" name="2.0" comment="" />
       <created>1675263184639</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -236,8 +265,25 @@
       <workItem from="1675953019579" duration="1713000" />
       <workItem from="1675954770631" duration="7834000" />
       <workItem from="1676077550385" duration="6258000" />
-      <workItem from="1676095141404" duration="4452000" />
+      <workItem from="1676095141404" duration="13023000" />
+      <workItem from="1676280350842" duration="594000" />
+      <workItem from="1676289318384" duration="4743000" />
     </task>
+    <task id="LOCAL-00001" summary="1.0">
+      <created>1676115231199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676115231199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2.0">
+      <created>1676115477128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676115477128</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +291,23 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.facetType" implementationName="JRebel" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0" />
+    <MESSAGE value="2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
