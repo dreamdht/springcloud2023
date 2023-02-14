@@ -20,7 +20,7 @@ import java.util.List;
 @RequestMapping("/order")
 @Slf4j
 public class OrderController {
-    public static final String URL = "http://localhost:8001";
+    public static final String URL = "http://CLOUD-PAYMENT-SERVICE";
 
     @Resource
     private RestTemplate restTemplate;
@@ -38,6 +38,11 @@ public class OrderController {
     @PostMapping("/payment/getPayment")
     public R getPaymentById(@Validated @RequestBody Payment paymentParam){
         return restTemplate.postForObject(URL + "/payment/getPayment", paymentParam, R.class);
+    }
+
+    @GetMapping("/payment/server")
+    public Object getPaymentServer(){
+        return restTemplate.getForObject(URL+"/payment/server",Object.class);
     }
 
 

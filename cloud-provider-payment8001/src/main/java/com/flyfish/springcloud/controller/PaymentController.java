@@ -4,9 +4,12 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.flyfish.springcloud.common.R;
 import com.flyfish.springcloud.pojo.Payment;
 import com.flyfish.springcloud.service.PaymentService;
+import com.netflix.discovery.shared.Applications;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.ServiceInstance;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,6 +25,9 @@ import java.util.List;
 @RequestMapping("/payment")
 @Slf4j
 public class PaymentController {
+    @Autowired
+    private DiscoveryClient discoveryClient;
+
     @Autowired
     private PaymentService paymentService;
 
@@ -53,10 +59,29 @@ public class PaymentController {
         return R.success(payment);
     }
 
+
     @GetMapping("/getAll")
     public List<Payment> getAllPayment(){
         return paymentService.list();
     }
 
+    @GetMapping("/server")
+    public Object getServer(){
+        List<String> services = discoveryClient.getServices();
+
+        for (String service : services) {
+            log.info("---->",service);
+        }
+
+        log.info("***************************************");
+
+        List<ServiceInstance> instances = discoveryClient.getInstances("cloud-payment-server");
+
+        for (ServiceInstance instance : instances) {
+            log.info(instance.getHost()+"\t"+instance.getPort()+"\t"+instance.getServiceId());
+        }
+
+        return 8001;
+    }
 
 }
