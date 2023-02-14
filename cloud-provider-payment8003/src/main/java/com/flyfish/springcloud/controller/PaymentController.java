@@ -79,7 +79,8 @@ public class PaymentController {
         for (ServiceInstance instance : instances) {
             log.info(instance.getHost()+"\t"+instance.getPort()+"\t"+instance.getServiceId());
         }
-        
+
+        log.info("========================================");
         return 8003;
     }
 

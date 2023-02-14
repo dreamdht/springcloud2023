@@ -84,4 +84,14 @@ public class PaymentController {
         return 8001;
     }
 
+    @GetMapping("/outTime")
+    public String setOutTimeError(){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "8000";
+    }
+
 }
