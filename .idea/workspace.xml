@@ -4,34 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="513b8d15-0186-4bc6-a91d-d5029abb30d3" name="Default Changelist" comment="3.0">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/src/main/java/com/flyfish/springcloud/FeignOrder80Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/src/main/java/com/flyfish/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/src/main/java/com/flyfish/springcloud/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/src/main/java/com/flyfish/springcloud/config/FeignLogConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/src/main/java/com/flyfish/springcloud/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/src/main/java/com/flyfish/springcloud/config/Swagger2Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/src/main/java/com/flyfish/springcloud/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/src/main/java/com/flyfish/springcloud/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/flyfish/rule/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/rebel.xml" afterDir="false" />
+    <list default="true" id="513b8d15-0186-4bc6-a91d-d5029abb30d3" name="Default Changelist" comment="4.0">
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/flyfish/springcloud/HystrixOrder80Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/flyfish/springcloud/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/java/com/flyfish/springcloud/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8004/src/main/java/com/flyfish/springcloud/HystrixPayment8004Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8004/src/main/java/com/flyfish/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8004/src/main/java/com/flyfish/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8004/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/flyfish/springcloud/Order80Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/flyfish/springcloud/Order80Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/flyfish/springcloud/Order80Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/flyfish/springcloud/Order80Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/flyfish/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/flyfish/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/flyfish/springcloud/Payment8001Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/flyfish/springcloud/Payment8001Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/flyfish/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/flyfish/springcloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/flyfish/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/java/com/flyfish/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8003/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8003/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8003/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8003/target/classes/com/flyfish/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8003/target/classes/com/flyfish/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-common/cloud-api-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-common/cloud-api-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-serve7001/cloud-eureka-serve7001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-serve7001/cloud-eureka-serve7001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-serve7002/cloud-eureka-serve7002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-serve7002/cloud-eureka-serve7002.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-serve7002/src/main/java/com/flyfish/springcloud/Eureka7002Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-serve7002/src/main/java/com/flyfish/springcloud/Eureka7002Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-serve7002/target/classes/com/flyfish/springcloud/Eureka7002Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-serve7002/target/classes/com/flyfish/springcloud/Eureka7002Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-serve7003/cloud-eureka-serve7003.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-serve7003/cloud-eureka-serve7003.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8003/cloud-provider-payment8003.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8003/cloud-provider-payment8003.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-providerconsul-payment8006/cloud-providerconsul-payment8006.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/cloud-providerconsul-payment8006.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="7da73e07-434d-4322-8539-cc16b93eafcc" name="2.0" comment="" />
@@ -115,7 +115,7 @@
     <property name="android.sdk.path" value="D:/Environment/android" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumer-openFeign-order80/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -123,11 +123,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30935252" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -138,11 +138,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\RootCode\自学\springcloud2023\cloud-consumer-hystrix-order80\src\main\resources" />
+      <recent name="E:\RootCode\自学\springcloud2023\cloud-provider-hystrix-payment8004\src\main\resources" />
       <recent name="E:\RootCode\自学\springcloud2023\cloud-consumer-openFeign-order80\src\main\resources" />
       <recent name="E:\RootCode\自学\springcloud2023\cloud-consumer-openFeign-order80\src\main\java\com\flyfish\springcloud" />
       <recent name="E:\RootCode\自学\springcloud2023\cloud-provider-payment8003\src\main\resources" />
-      <recent name="E:\RootCode\自学\springcloud2023\cloud-provider-payment8002\src\main\resources" />
-      <recent name="E:\RootCode\自学\springcloud2023\cloud-provider-payment8003\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.flyfish.springcloud.pojo" />
@@ -156,18 +156,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FeignOrder80Application">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.HystrixOrder80Application">
     <configuration name="Eureka7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-serve7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.Eureka7001Application" />
@@ -210,15 +199,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Order80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-order80" />
+    <configuration name="HystrixOrder80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-hystrix-order80" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.flyfish.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.HystrixOrder80Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixPayment8004Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-hystrix-payment8004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyfish.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.HystrixPayment8004Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Order80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.Order80Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Order80ConsulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumerconsul-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.Order80ConsulApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -232,19 +250,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.Payment8001Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Payment8002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment8002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.flyfish.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.Payment8002Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -266,23 +271,25 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.Order80Application" />
+      <item itemvalue="Spring Boot.Order80ConsulApplication" />
       <item itemvalue="Spring Boot.Eureka7002Application" />
       <item itemvalue="Spring Boot.Payment8006ConsulApplication" />
       <item itemvalue="Spring Boot.Payment8003Application" />
-      <item itemvalue="Spring Boot.Payment8001Application" />
-      <item itemvalue="Spring Boot.Payment8002Application" />
-      <item itemvalue="Spring Boot.Eureka7003Application" />
-      <item itemvalue="Spring Boot.Order80Application" />
-      <item itemvalue="Spring Boot.FeignOrder80Application" />
       <item itemvalue="Spring Boot.Eureka7001Application" />
+      <item itemvalue="Spring Boot.Payment8001Application" />
+      <item itemvalue="Spring Boot.Eureka7003Application" />
+      <item itemvalue="Spring Boot.FeignOrder80Application" />
+      <item itemvalue="Spring Boot.HystrixPayment8004Application" />
+      <item itemvalue="Spring Boot.HystrixOrder80Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.HystrixOrder80Application" />
+        <item itemvalue="Spring Boot.HystrixPayment8004Application" />
+        <item itemvalue="Spring Boot.Eureka7003Application" />
         <item itemvalue="Spring Boot.FeignOrder80Application" />
         <item itemvalue="Spring Boot.Payment8001Application" />
-        <item itemvalue="Spring Boot.Eureka7003Application" />
-        <item itemvalue="Spring Boot.Payment8002Application" />
-        <item itemvalue="Spring Boot.Order80Application" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +323,9 @@
       <workItem from="1676077550385" duration="6258000" />
       <workItem from="1676095141404" duration="13023000" />
       <workItem from="1676280350842" duration="594000" />
-      <workItem from="1676289318384" duration="26858000" />
+      <workItem from="1676289318384" duration="32520000" />
+      <workItem from="1676461917124" duration="2990000" />
+      <workItem from="1676509446618" duration="3740000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1676115231199</created>
@@ -346,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676364743429</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4.0">
+      <created>1676384498628</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676384498628</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +388,8 @@
     <MESSAGE value="1.0" />
     <MESSAGE value="2.0" />
     <MESSAGE value="3.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.0" />
+    <MESSAGE value="4.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
