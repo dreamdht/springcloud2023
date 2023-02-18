@@ -21,6 +21,9 @@
     <module>cloud-consumer-openFeign-order80</module>
     <module>cloud-provider-hystrix-payment8004</module>
       <module>cloud-consumer-hystrix-order80</module>
+      <module>cloud-gateway-server9527</module>
+    <module>cloud-center-config2000</module>
+    <module>cloud-center-conf2000</module>
   </modules>
   <packaging>pom</packaging>
 

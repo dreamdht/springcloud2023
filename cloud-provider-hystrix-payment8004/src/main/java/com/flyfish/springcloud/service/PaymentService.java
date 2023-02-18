@@ -27,6 +27,7 @@ public class PaymentService {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        System.out.println("=========>");
         return "线程池: "+Thread.currentThread().getName()+"  paymentTimeout,耗时"+sleepTime;
     }
 

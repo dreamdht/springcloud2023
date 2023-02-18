@@ -22,7 +22,7 @@ public class OrderController {
 
     @GetMapping("/hystrix/ok/{id}")
     public String paymentOk(@PathVariable("id") Integer id){
-        return orderService.paymentOk(id);
+        return orderService.paymentOk(id)+"BBA";
     }
 
     @GetMapping("/hystrix/timeout/{id}")

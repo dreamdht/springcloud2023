@@ -6,10 +6,10 @@
 -->
 <application generated-by="intellij" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.zeroturnaround.com" xsi:schemaLocation="http://www.zeroturnaround.com http://update.zeroturnaround.com/jrebel/rebel-2_3.xsd">
 
-	<id>cloud-providerconsul-payment8006</id>
+	<id>cloud-consumer-hystrix-order80</id>
 
 	<classpath>
-		<dir name="E:/RootCode/自学/springcloud2023/cloud-providerconsul-payment8006/target/classes">
+		<dir name="E:/RootCode/自学/springcloud2023/cloud-consumer-hystrix-order80/target/classes">
 		</dir>
 	</classpath>
 

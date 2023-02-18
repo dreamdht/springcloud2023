@@ -21,7 +21,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @Slf4j
 @EnableEurekaClient
-@EnableDiscoveryClient
 public class Payment8001Application {
     public static void main(String[] args) {
         log.info("8001项目已启动");
