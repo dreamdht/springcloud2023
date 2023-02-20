@@ -22,8 +22,8 @@
     <module>cloud-provider-hystrix-payment8004</module>
       <module>cloud-consumer-hystrix-order80</module>
       <module>cloud-gateway-server9527</module>
-    <module>cloud-center-config2000</module>
-    <module>cloud-center-conf2000</module>
+    <module>cloud-centerConfig-server2000</module>
+    <module>cloud-config-server2100</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -9,11 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-providerconsul-payment8006" />
         <module name="cloud-provider-payment8003" />
+        <module name="cloud-centerConfig-server2000" />
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-hystrix-payment8004" />
         <module name="cloud-api-common" />
         <module name="cloud-consumer-hystrix-order80" />
-        <module name="cloud-center-conf2000" />
+        <module name="cloud-config-server2100" />
         <module name="cloud-provider-payment8001" />
         <module name="cloud-consumerconsul-order80" />
         <module name="cloud-gateway-server9527" />
@@ -25,6 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="cloud-center-conf2000" target="8" />
       <module name="cloud-center-config2000" target="8" />
     </bytecodeTargetLevel>
   </component>
