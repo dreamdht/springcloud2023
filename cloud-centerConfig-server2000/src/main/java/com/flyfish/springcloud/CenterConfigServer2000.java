@@ -3,7 +3,6 @@ package com.flyfish.springcloud;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
@@ -18,7 +17,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @Slf4j
 public class CenterConfigServer2000 {
     public static void main(String[] args) {
-        log.info("2000 has been stater........");
+        log.info("2000端口 服务配置中心已启动");
         SpringApplication.run(CenterConfigServer2000.class,args);
     }
 }

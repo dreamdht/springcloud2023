@@ -5,42 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="513b8d15-0186-4bc6-a91d-d5029abb30d3" name="Default Changelist" comment="7.0">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-centerConfig-server2000/cloud-centerConfig-server2000.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-centerConfig-server2000/src/main/java/com/flyfish/springcloud/CenterConfigServer2000.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-centerConfig-server2000/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-centerConfig-server2000/src/test/java/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-server2100/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-server2100/src/main/java/com/flyfish/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-server2100/src/main/resources/bootstarp.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-server2100/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-server2100/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-api-common/cloud-api-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-common/cloud-api-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-api-common/target/cloud-api-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-common/target/cloud-api-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-center-conf2000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-centerConfig-server2000/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-center-conf2000/src/main/java/com/flyfish/springcloud/CenterConf2000Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-server2100/src/main/java/com/flyfish/springcloud/Config2100Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-center-conf2000/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-center-config2000/cloud-center-config2000.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-centerConfig-server2000/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-centerConfig-server2000/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-centerConfig-server2000/src/main/java/com/flyfish/springcloud/CenterConfigServer2000.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-centerConfig-server2000/src/main/java/com/flyfish/springcloud/CenterConfigServer2000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-centerConfig-server2000/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-centerConfig-server2000/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-server2100/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-server2100/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-server2100/src/main/java/com/flyfish/springcloud/Config2100Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-server2100/src/main/java/com/flyfish/springcloud/Config2100Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-server2100/src/main/java/com/flyfish/springcloud/controller/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-server2100/src/main/java/com/flyfish/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-server2100/src/main/resources/bootstarp.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/cloud-consumer-hystrix-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order80/cloud-consumer-hystrix-order80.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/cloud-consumer-openFeign-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-openFeign-order80/cloud-consumer-openFeign-order80.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/cloud-consumer-order80-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/cloud-consumer-order80-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumerconsul-order80/cloud-consumerconsul-order80.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-eureka-serve7001/cloud-eureka-serve7001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-serve7001/cloud-eureka-serve7001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-serve7001/target/cloud-eureka-serve7001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-serve7001/target/cloud-eureka-serve7001-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-eureka-serve7002/cloud-eureka-serve7002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-serve7002/cloud-eureka-serve7002.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-eureka-serve7003/cloud-eureka-serve7003.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-serve7003/cloud-eureka-serve7003.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway-server9527/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway-server9527/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8004/cloud-provider-hystrix-payment8004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8004/cloud-provider-hystrix-payment8004.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/cloud-provider-payment8001.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/cloud-provider-payment8001-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/cloud-provider-payment8001-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/cloud-provider-payment8002.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment8003/cloud-provider-payment8003.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8003/cloud-provider-payment8003.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-providerconsul-payment8006/cloud-providerconsul-payment8006.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/cloud-providerconsul-payment8006.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <list id="7da73e07-434d-4322-8539-cc16b93eafcc" name="2.0" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +114,7 @@
     <property name="android.sdk.path" value="D:/Environment/android" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-server2100/src/main/resources/bootstarp.yaml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-server2100/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,7 +126,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30935252" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion.SSH" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -187,28 +174,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CenterConf2000Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-center-conf2000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.flyfish.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.CenterConf2000Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CenterConfigServer2000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="CenterConfigServer2000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-centerConfig-server2000" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.flyfish.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.CenterConfigServer2000" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,6 +191,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.Config2100Application" />
+      <option name="ACTIVE_PROFILES" value="native" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -272,6 +242,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Payment8001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.flyfish.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.Payment8001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Payment8003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment8003" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.flyfish.springcloud.Payment8003Application" />
@@ -290,24 +273,23 @@
     </configuration>
     <list>
       <item itemvalue="Application.Demo" />
+      <item itemvalue="Spring Boot.CenterConfigServer2000" />
       <item itemvalue="Spring Boot.Eureka7001Application" />
       <item itemvalue="Spring Boot.Eureka7002Application" />
       <item itemvalue="Spring Boot.Order80Application" />
       <item itemvalue="Spring Boot.Order80ConsulApplication" />
       <item itemvalue="Spring Boot.Payment8003Application" />
       <item itemvalue="Spring Boot.Payment8006ConsulApplication" />
-      <item itemvalue="Spring Boot.Eureka7003Application" />
-      <item itemvalue="Spring Boot.CenterConf2000Application" />
-      <item itemvalue="Spring Boot.CenterConfigServer2000" />
       <item itemvalue="Spring Boot.Config2100Application" />
+      <item itemvalue="Spring Boot.Eureka7003Application" />
+      <item itemvalue="Spring Boot.Payment8001Application" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Config2100Application" />
-        <item itemvalue="Spring Boot.CenterConfigServer2000" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Spring Boot.CenterConf2000Application" />
         <item itemvalue="Spring Boot.Eureka7003Application" />
+        <item itemvalue="Spring Boot.Payment8001Application" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -355,6 +337,9 @@
       <workItem from="1676721458229" duration="12854000" />
       <workItem from="1676804110999" duration="3580000" />
       <workItem from="1676896137664" duration="5396000" />
+      <workItem from="1676941219924" duration="4028000" />
+      <workItem from="1677030473908" duration="7112000" />
+      <workItem from="1677048947342" duration="7647000" />
     </task>
     <task id="LOCAL-00001" summary="1.0">
       <created>1676115231199</created>
