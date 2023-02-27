@@ -22,6 +22,11 @@
         <module name="cloud-consumer-openFeign-order80" />
         <module name="cloud-eureka-serve7002" />
         <module name="cloud-eureka-serve7001" />
+        <module name="cloud-stream-rabbitmq-consumer5200" />
+        <module name="cloud-sleuth-consumer80" />
+        <module name="cloud-stream-rabbitmq-consumer5100" />
+        <module name="cloud-stream-rabbitmq-provider5000" />
+        <module name="cloud-sleuth-payment8005" />
         <module name="cloud-consumer-order80" />
       </profile>
     </annotationProcessing>

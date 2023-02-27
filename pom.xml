@@ -24,6 +24,11 @@
       <module>cloud-gateway-server9527</module>
     <module>cloud-centerConfig-server2000</module>
     <module>cloud-config-server2100</module>
+      <module>cloud-stream-rabbitmq-provider5000</module>
+      <module>cloud-stream-rabbitmq-consumer5100</module>
+      <module>cloud-stream-rabbitmq-consumer5200</module>
+      <module>cloud-sleuth-payment8005</module>
+      <module>cloud-sleuth-consumer80</module>
   </modules>
   <packaging>pom</packaging>
 

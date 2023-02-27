@@ -33,5 +33,15 @@
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8003/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-providerconsul-payment8006/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-providerconsul-payment8006/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-sleuth-consumer80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-sleuth-consumer80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-sleuth-payment8005/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-sleuth-payment8005/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer5100/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer5100/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer5200/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer5200/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider5000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider5000/src/main/resources" charset="UTF-8" />
   </component>
 </project>
