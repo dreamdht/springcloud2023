@@ -29,6 +29,10 @@
       <module>cloud-stream-rabbitmq-consumer5200</module>
       <module>cloud-sleuth-payment8005</module>
       <module>cloud-sleuth-consumer80</module>
+    <module>alibaba-provider-payment9001</module>
+    <module>alibaba-provider-payment9002</module>
+    <module>alibaba-consumer-order80</module>
+    <module>alibaba-centerConfig-server2000</module>
   </modules>
   <packaging>pom</packaging>
 
